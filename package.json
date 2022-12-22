@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sam8helloworld/zenn-content/issues"
   },
-  "homepage": "https://github.com/sam8helloworld/zenn-content#readme"
+  "homepage": "https://github.com/sam8helloworld/zenn-content#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.134"
+  }
 }
