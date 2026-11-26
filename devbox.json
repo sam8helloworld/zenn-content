@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.18.4/.schema/devbox.schema.json",
+  "packages": ["nodejs@22"],
+  "shell": {
+    "init_hook": ["npm install --no-audit --no-fund"],
+    "scripts": {
+      "preview": ["npx zenn preview"],
+      "new:article": ["npx zenn new:article"],
+      "new:book": ["npx zenn new:book"]
+    }
+  }
+}
